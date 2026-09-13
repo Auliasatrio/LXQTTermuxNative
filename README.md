@@ -1,2 +1,10 @@
 # LXQTTermuxNative
 Running Linux Container beside Termux &amp; Termux:X11 BUT LXQT Version!
+
+1. Build Essential packages :
+
+```
+pkg update -y && pkg upgrade -y && pkg install tur-repo x11-repo -y && pkg install termux-x11-nightly pulseaudio wget git xorg-xrdb lxqt -y && termux-setup-storage
+```
+
+2.
